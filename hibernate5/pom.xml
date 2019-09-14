@@ -30,6 +30,7 @@ Hibernate (http://hibernate.org) version 5.x data types.
       <groupId>javax.transaction</groupId>
       <artifactId>javax.transaction-api</artifactId>
       <version>1.3</version>
+      <scope>provided</scope>
     </dependency>
 
     <!-- what would be the best scope to use here? -->
@@ -111,6 +112,10 @@ Hibernate (http://hibernate.org) version 5.x data types.
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.karaf.tooling</groupId>
+        <artifactId>karaf-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
