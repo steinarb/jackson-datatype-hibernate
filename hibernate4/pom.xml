@@ -71,6 +71,10 @@ Hibernate (http://hibernate.org) version 4.x data types.
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.karaf.tooling</groupId>
+        <artifactId>karaf-maven-plugin</artifactId>
+      </plugin>
     </plugins>
   </build>
 
